@@ -1,5 +1,5 @@
 #fundamental data types
-#int 
+#int
 #float
 #bool
 #str
@@ -33,7 +33,7 @@
 # print(abs(-29.3))
 
 #operator precedence
-# some operators (maths signs) have precedence over others, meaning they get executed first. 
+# some operators (maths signs) have precedence over others, meaning they get executed first.
 
 # () brackets
 # ** raising to-the-power
@@ -44,7 +44,7 @@
 #VARIABLES
 #constants
 PI = 3.14
-half_a_pie = PI / 2
+half_a_pie = PI/2
 double_a_pie=PI*2
 
-print (double_a_pie)
+print (half_a_pie)
