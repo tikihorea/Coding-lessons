@@ -1,9 +1,12 @@
+* {
+  text-align: right;
+}
+
 body {
   background-image: url(https://imgs.search.brave.com/Ppf-5LJX7CFG8ubLpt6Mephs_mJi5si9YEV3lsjXiNo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/Mjg0NjAwMzMyNzgt/YTZiYTU3MDIwNDcw/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRWOGZH/SmhZMnRuY205MWJt/UWxNakJwYldGblpY/eGxibnd3Zkh3d2ZI/eDhNQT09);
   background-size: cover;
 }
 
-h2,
 p {
   color: #aa4139;
   text-align: center;
@@ -12,14 +15,39 @@ p {
 }
 
 p {
-  color: rgb(33, 33, 172);
+  line-height: 50px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-p {
-  color: green;
+img {
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
 }
 
 li {
   list-style: none;
   display: inline-block;
+}
+
+.webtext:last-child {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  background: rgba(0, 0, 255, 0.1);
+}
+
+#div2 {
+  background: rgba(176, 13, 223, 0.1);
 }
