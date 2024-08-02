@@ -1,0 +1,112 @@
+body {
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+}
+
+h1 {
+  font: 600 3.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+input[type="color"] {
+  margin: 10px;
+}
+
+select {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#definitions,
+#colorNames {
+  margin-top: 20px;
+}
+
+#definitions p,
+#colorNames p {
+  margin: 5px 0;
+  font-family: Arial, sans-serif;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#markers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.marker {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 2px solid grey;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  animation: fadeInOut 2s infinite;
+}
+
+.markerLabel {
+  font-size: 12px;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#gradientValue {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: left;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.gradientValueLine {
+  margin: 5px 0;
+}
+
+.gradientValueLine strong {
+  display: inline-block;
+  width: 60px;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <title>Gradient Background Generator</title>
+  </head>
+  <body id="gradient">
+    <header></header>
+    <main>
+      <h1>Background Generator</h1>
+      <div id="colorInputs">
+        <input class="color" name="color1" type="color" value="#00ff00" />
+        <input class="color" name="color2" type="color" value="#ff0000" />
+      </div>
+      <button id="addColorButton">Add Color</button>
+      <button id="removeColorButton">Remove Color</button>
+      <select id="colorRelation">
+        <option value="complementary">Complementary</option>
+        <option value="analogous">Analogous</option>
+        <option value="triadic">Triadic</option>
+        <option value="tetradic">Tetradic</option>
+        <option value="square">Square</option>
+      </select>
+      <button id="randomButton">Random</button>
+      <h2>Current Gradient</h2>
+      <div id="gradientValue"></div>
+      <div id="definitions">
+        <p>
+          <strong>2 colors - Complementary:</strong> Colors that are opposite
+          each other on the color wheel.
+        </p>
+        <p>
+          <strong>2+ colors - Analogous:</strong> Colors that are next to each
+          other on the color wheel.
+        </p>
+        <p>
+          <strong>3 colors - Triadic:</strong> Colors that are evenly spaced
+          around the color wheel.
+        </p>
+        <p>
+          <strong>4 colors - Tetradic:</strong> Colors that form a rectangle on
+          the color wheel.
+        </p>
+        <p>
+          <strong>4 colors - Square:</strong> Colors that are evenly spaced
+          around the color wheel.
+        </p>
+      </div>
+      <div id="colorNames"></div>
+      <div id="markers"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
