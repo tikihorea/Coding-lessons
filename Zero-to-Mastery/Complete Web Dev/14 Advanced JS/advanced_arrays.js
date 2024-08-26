@@ -6,19 +6,19 @@ const newArray = array.forEach((num) => {
 
 console.log("forEach", double);
 
-// ! map
+// map
 
 const mapArray = array.map((num) => num * 2);
 
 console.log("map", mapArray);
 
-// ! filter
+// filter
 
 const filterArray = array.filter((num) => num > 5);
 
 console.log("filter", filterArray);
 
-// ! reduce
+// reduce
 
 const reduceArray = array.reduce((accumulator, num) => {
   return accumulator + num;
